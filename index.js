@@ -37,13 +37,16 @@ console.log('--------------');
 
 import { Car } from "./js/Car.js"; 
 
-const audi = new Car ('Audi', '80', 'Geltona');
+const audi = new Car ('Audi', '80', 'Geltona', 66, 5.2);
 console.log(audi);
 
 console.log(audi.name);
 console.log(audi.model);
 console.log(audi.color);
-console.log(audi.tankCapacityLitres);
+console.log(audi.fuelTankCapacityLitres);
 console.log(audi.averageFuelConsumptionLitres);
 console.log(audi.engineIsOn);
 console.log(audi.speed);
+
+console.log(audi.startEngine());
+console.log(audi.engineOff());
