@@ -27,3 +27,23 @@ console.log(brisius.lostLeg());
 console.log(brisius.birthday());
 console.log(brisius.birthday());
 console.log(brisius.birthday());
+
+console.clear();
+
+
+console.log('--------------');
+
+/* AUTO ND */
+
+import { Car } from "./js/Car.js"; 
+
+const audi = new Car ('Audi', '80', 'Geltona');
+console.log(audi);
+
+console.log(audi.name);
+console.log(audi.model);
+console.log(audi.color);
+console.log(audi.tankCapacityLitres);
+console.log(audi.averageFuelConsumptionLitres);
+console.log(audi.engineIsOn);
+console.log(audi.speed);
