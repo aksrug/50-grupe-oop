@@ -47,6 +47,12 @@ console.log(audi.fuelTankCapacityLitres);
 console.log(audi.averageFuelConsumptionLitres);
 console.log(audi.engineIsOn);
 console.log(audi.speed);
+//console.log(audi.fuelLeft);
 
-console.log(audi.startEngine());
-console.log(audi.engineOff());
+console.log(audi.ijungtiVarikli());
+console.log(audi.isjungtiVarikli());
+console.log(audi.pradetiVaziuoti());
+console.log(audi.vaziuoti());
+console.log(audi.sustoti());
+console.log(audi.likesKuras());
+console.log(audi.kuroPapildymas());
