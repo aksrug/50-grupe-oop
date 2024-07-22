@@ -59,15 +59,12 @@ export class Car {
             return `Automobilio variklis išjungtas, galime saugiai pildyti kuro baką.`;
         }
         
-
-        
+       
 
     }
 
 
-
-
-    
+   
 
 
 }
