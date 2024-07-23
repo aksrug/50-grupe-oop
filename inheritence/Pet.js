@@ -1,7 +1,10 @@
-export class Pet {
-    constructor(name, bread) {
+import { Animal } from "./Animal.js";
+
+export class Pet extends Animal{
+    constructor(name, breed) {
+        super(name);
         this.name = name;
-        this.bread = bread;
+        this.breed = breed;
         this.legsCount = 4;
         this.animalType = '';
         this.sound = 'GARSAS';

@@ -1,14 +1,14 @@
 import { Animal } from "./Animal.js";
 
-export class Fish extends Animal {
+export class Bird extends Animal {
     constructor(name) {
         super(name);
         this.name = name;
-        this.animalType = 'fish';
-        this.finCount = 3;
+        this.animalType = 'bird';
+        this.legsCount = 2;
         this.sound = '';
-        this.emoji = '🐟';
-        this.emojiCount = 1;
+        this.emoji = '🦆';
+        this.emojiCount = 8;
     }
 
     intro() {
