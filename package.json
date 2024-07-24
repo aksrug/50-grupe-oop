@@ -8,7 +8,7 @@
     "static": "node --watch ./static/index.js",
     "animals": "node --watch ./animal-world.js",
     "dev": "node --watch ./index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --watch ./static/validation-tests.js"
   },
   "keywords": [],
   "author": "",
